@@ -1,0 +1,256 @@
+.main {
+    width: 400px;
+    position: relative;
+    background-color: #FAFAE1;
+    padding: 5px;
+}
+
+.header {
+    border-radius: 5px;
+}
+
+.weather {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bolder;
+    color: #f77265;
+}
+
+.ooster {
+    background-color: #f77265;
+    border-radius: 5px;
+    font-family: 'Bad Script', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: #FAFAE1;
+}
+
+.searchlocation {
+    margin-top: 5px;
+    height: 30px;
+}
+
+.search {
+    border-radius: 50%;
+    border: 2px solid;
+    background-color: #C7C78F;
+    color: #FAFAE1;
+    width: 30px;
+    font-size: 15px;
+    float: left;
+}
+
+.location {
+    border-radius: 50%;
+    border: 2px solid;
+    background-color: #C7C78F;
+    color: #FAFAE1;
+    width: 30px;
+    font-size: 15px;
+}
+
+.dayHour {
+    color: #3B3923;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: right;
+}
+
+#searchInput {
+    width: 100%;
+    border: 1.3px solid #56282D;
+    background-color: rgb(255, 255, 245);
+    box-shadow: none;
+    border-radius: 5px;
+    float: left;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.rooster {
+    position: relative;
+    height: 269px;
+    width: 100px;
+}
+
+.crestfour {
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    background-color: #f77265;
+    margin-top: 26%;
+    margin-left: -11%;
+    border-top-right-radius: 93%;
+}
+
+.rboody {
+    position: absolute;
+    width: 70px;
+    height: 120px;
+    margin-top: 36%;
+    background-color: #f5d020;
+    border-radius: 0% 53px / 26px 69px;
+}
+
+.lboody {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    margin-top: 47%;
+    margin-left: 39%;
+    background-color: #6b591d;
+    border-radius: 53px 0% / 69px 26px;
+}
+
+.tboody {
+    position: absolute;
+    width: 107px;
+    height: 60px;
+    margin-top: 44%;
+    margin-left: 41%;
+    background-color: #6b591d;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.bic {
+    position: absolute;
+    margin-top: 36%;
+    margin-left: -10%;
+    border-bottom: 21px solid #C0A172;
+    border-left: 20px solid transparent;
+}
+
+.underbic {
+    position: absolute;
+    width: 18px;
+    height: 37px;
+    margin-top: 46%;
+    margin-left: -9%;
+    background-color: #f77265;
+    border-top-left-radius: 100% 50%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 100% 50%;
+    border-bottom-right-radius: 0%;
+}
+
+.crest {
+    position: absolute;
+    width: 55px;
+    height: 22px;
+    background-color: #f77265;
+    margin-top: 25%;
+    border-bottom-right-radius: 82%;
+}
+
+.cresttwo {
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    background-color: #f77265;
+    margin-top: 15%;
+    border-top-right-radius: 93%;
+}
+
+.crestthree {
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    background-color: #f77265;
+    margin-top: 15%;
+    margin-left: 11%;
+    border-top-right-radius: 93%
+}
+
+.crestfour {
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    background-color: #f77265;
+    margin-top: 26%;
+    margin-left: -11%;
+    border-top-right-radius: 93%;
+}
+
+.leg {
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    margin-top: 102%;
+    margin-left: 35%;
+    background-color: #C0A172;
+}
+
+.claw {
+    position: absolute;
+    width: 39px;
+    height: 2px;
+    margin-top: 130%;
+    margin-left: 23%;
+    background-color: #C0A172;
+}
+
+.clawtwo {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    margin-top: 112%;
+    margin-left: 35%;
+    border-bottom-right-radius: 75%;
+    border: 2px solid #C0A172;
+    border-top-style: none;
+}
+
+#city {
+    color: #3B3923;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.today {
+    position: relative;
+    padding: 25% 0 0 15px;
+    color: #3B3923;
+    /*    font-size: 100px; */
+    font-family: 'Raleway', sans-serif;
+}
+
+.maxtemperature {
+    color: #3B3923;
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    padding: 5% 0 0 15px;
+}
+
+.mintemperature {
+    color: #3B3923;
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    padding: 25% 0 0 15px;
+}
+
+.forecast {
+    text-align: center;
+    background-color: #C7C78F;
+    border-radius: 5px;
+    color: #FAFAE1;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.icon {
+    width: 80%;
+}
