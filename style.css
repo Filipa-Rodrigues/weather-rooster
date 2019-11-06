@@ -3,6 +3,8 @@
     position: relative;
     background-color: #FAFAE1;
     padding: 5px;
+    display: block;
+    margin: auto;
 }
 
 .header {
@@ -253,4 +255,11 @@
 
 .icon {
     width: 80%;
+}
+
+.credits p {
+    color: #3B3923;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    text-align: center;
 }
